@@ -14,7 +14,7 @@ This a Projects that contains two API's the first is laravel itself recieving re
 # How to download it and run ?
 1. Clone GitHub repository **"git clone https://github.com/adamabusamra/flight_tracker_Laravel-react_API.git** OR Download the compressed file.
 2. Run **"npm install"** in the (client) directory to download the node_modules folder and other important files.
-3. You dont kneed to serve laravel on artisan since it's hosted online at (https://adamfirsthost.000webhostapp.com)
+3. You dont need to serve laravel on artisan since it's hosted online at (https://adamfirsthost.000webhostapp.com)
 4. If you want to run laravel localy use **"composer install"** in the (backend_API) directory to download the vendor folder and other important files.
 
 # My local enviroment details:
