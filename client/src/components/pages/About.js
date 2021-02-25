@@ -16,7 +16,7 @@ const About = () => {
         <p>
           <i class="fab fa-github"></i> Git repository :{" "}
           <a href="http://github.com/adamabusamra" target="_blank">
-            http://github.com/adamabusamra
+            https://github.com/adamabusamra/flight_tracker_Laravel-react_API
           </a>
         </p>
       </div>
