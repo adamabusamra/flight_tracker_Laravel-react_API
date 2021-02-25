@@ -48,7 +48,7 @@ const Home = () => {
         </div>
       </div>
       {flight ? (
-        <div className="status-card mt-3 ">
+        <div className="status-card mt-3 mb-5">
           <FlightStatus data={flight} />
         </div>
       ) : null}

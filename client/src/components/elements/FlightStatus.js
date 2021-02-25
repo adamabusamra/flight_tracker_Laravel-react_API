@@ -32,6 +32,50 @@ const FlightStatus = ({ data }) => {
           <p style={{ color: "#003699" }}>{data.arrival.airport}</p>
         </div>
       </div>
+      {/* 
+      
+      
+      
+      */}
+      <div className="row">
+        <div className="col-3 text-center px-3">
+          <h3>
+            {/* <i class="fas fa-plane-departure " style={{ color: "#003699" }}></i> */}
+            Status
+          </h3>
+          <p style={{ color: "#003699" }}>
+            <span class="badge badge-primary" style={{ fontSize: "1rem" }}>
+              {data.flight_status}
+            </span>
+          </p>
+        </div>
+        <div className="col-3 text-center px-3">
+          <h3>Date</h3>
+          <p style={{ color: "#003699" }}>{data.flight_date}</p>
+        </div>
+        <div className="col-3 text-center px-3">
+          <h3>Departure</h3>
+          <p style={{ color: "#003699" }}>
+            {data.departure.actual
+              .slice(data.departure.actual.search("T") + 1)
+              .replace(
+                data.departure.actual.slice(data.departure.actual.indexOf("+")),
+                ""
+              )}
+          </p>
+        </div>
+        <div className="col-3 text-center px-3">
+          <h3>Arival</h3>
+          <p style={{ color: "#003699" }}>
+            {data.arrival.actual
+              .slice(data.arrival.actual.search("T") + 1)
+              .replace(
+                data.arrival.actual.slice(data.arrival.actual.indexOf("+")),
+                ""
+              )}
+          </p>
+        </div>
+      </div>
     </>
   );
 };
