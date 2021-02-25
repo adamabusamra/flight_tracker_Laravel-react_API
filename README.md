@@ -1,5 +1,5 @@
 # Flight Tracker: A React application with a laravel backend API and a flight aviation API
-![image](https://user-images.githubusercontent.com/71829303/109085457-61de3000-7712-11eb-9cb3-0c47ab1529a4.png)
+![image](https://user-images.githubusercontent.com/71829303/109136374-b7412e00-7760-11eb-956b-8f868f5f3692.png)
 
 # Description:
 This a Projects that contains two API's the first is laravel itself recieving requests and the second is an online flight aviation API that returns flight details based on the provided flight number.
