@@ -22,3 +22,5 @@ This a Projects that contains two API's the first is laravel itself recieving re
 - OS: Windows 10
 - PHP: Version "7.4.12", Zend Engine v3.4.0
 - Database: No database required.
+
+## contact me at adamabusamra@gmail.com
