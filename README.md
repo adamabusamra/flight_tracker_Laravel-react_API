@@ -16,3 +16,9 @@ This a Projects that contains two API's the first is laravel itself recieving re
 2. Run **"npm install"** in the (client) directory to download the node_modules folder and other important files.
 3. You dont kneed to serve laravel on artisan since it's hosted online at (https://adamfirsthost.000webhostapp.com)
 4. If you want to run laravel localy use **"composer install"** in the (backend_API) directory to download the vendor folder and other important files.
+
+# My local enviroment details:
+- Laravel Framework: Version "7.*"
+- OS: Windows 10
+- PHP: Version "7.4.12", Zend Engine v3.4.0
+- Database: No database required.
