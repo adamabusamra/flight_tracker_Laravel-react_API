@@ -13,7 +13,7 @@ This a Projects that contains two API's the first is laravel itself recieving re
 
 # How to download it and run ?
 1. Clone GitHub repository **"git clone https://github.com/adamabusamra/flight_tracker_Laravel-react_API.git** OR Download the compressed file.
-2. React is hosted on a netlify server at https://silly-euclid-b0697c.netlify.app/.
+2. React is hosted on a netlify server at https://zen-edison-9cf595.netlify.app/
 3. laravel is hosted online at (https://adamfirsthost.000webhostapp.com)
 4. If you want to run React localy use **"npm install"** in the (client) directory to download the node_modules folder and other important files.
 5. If you want to run laravel localy use **"composer install"** in the (backend_API) directory to download the vendor folder and other important files.
